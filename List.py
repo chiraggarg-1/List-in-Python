@@ -1,0 +1,25 @@
+num = [20,30,40,50]
+print(num[2])
+print(num[1])
+print(num[3])
+print(num[0:])
+print(num[-1])
+print(num[-4])
+names = ['Abhishek', 'Sachin', 'Chirag']
+values = [10,13,34]
+mil = names+values
+print(mil)
+names.append('Harshita')
+print(names)
+names.insert(4,'Riya')
+print(names)
+names.remove('Harshita')
+print(names)
+names.pop(0)
+print(names)
+names.pop()
+print(names)
+names.reverse()
+print(names)
+x = values.sort()
+print(x)
